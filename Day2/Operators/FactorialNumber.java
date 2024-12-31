@@ -1,3 +1,6 @@
+//Write a program to find the factorial of a number using loops and arithmetic operators.
+
+
 package Day2;
 import  java.util.*;
 public class FactorialNumber {

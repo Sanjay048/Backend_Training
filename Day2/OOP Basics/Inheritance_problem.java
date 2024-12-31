@@ -1,3 +1,5 @@
+//Create a class Animal with a method speak(). Derive classes Dog and Cat and override the speak() method to display appropriate sounds.
+
 package Day2;
 
 class Animal{

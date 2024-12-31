@@ -1,3 +1,5 @@
+//Write a program to find the largest and smallest numbers in an array.
+
 package Day3;
 
 public class SumOfArray {

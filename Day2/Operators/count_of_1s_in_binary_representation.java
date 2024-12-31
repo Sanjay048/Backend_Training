@@ -1,3 +1,5 @@
+//Create a program to find the count of 1s in the binary representation of a number.
+
 package Day2;
 import java.util.*;
 public class count_of_1s_in_binary_representation {

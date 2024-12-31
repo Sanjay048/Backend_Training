@@ -1,3 +1,8 @@
+/*Create a base class Animal with a method sound(). 
+Derive two classes Dog and Cat from Animal. 
+Override the sound() method to print “Bark” for Dog and “Meow” for Cat. */
+
+
 package Day3;
 
 class Animal{

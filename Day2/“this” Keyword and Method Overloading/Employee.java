@@ -1,3 +1,6 @@
+//Create a class Employee with attributes id, name, and salary. Use the this keyword to resolve naming conflicts between local variables and instance variables.
+
+
 package Day2;
 
 class Employee {

@@ -1,3 +1,6 @@
+//Write a program to swap two numbers without using a third variable (use XOR).
+
+
 package Day2;
 import  java.util.*;
 public class SwapTwoNumbers {

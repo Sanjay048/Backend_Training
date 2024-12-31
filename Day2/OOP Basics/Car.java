@@ -1,3 +1,6 @@
+//Create a class Car with attributes like brand, model, and price. Write methods to display details of a car and calculate the discounted price.
+
+
 package Day2;
 
 public class Car {

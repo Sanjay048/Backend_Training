@@ -1,3 +1,6 @@
+/*Write a program with a base class Employee that has a method calculateSalary(). 
+Derive two classes Manager and Developer, and override the calculateSalary() method in both to display different salaries.*/
+
 package Day3;
 
 class Employee{

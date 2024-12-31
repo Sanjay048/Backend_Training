@@ -1,3 +1,6 @@
+//Write a program to print all numbers from 1 to 100, skipping multiples of 5 (use continue).
+
+
 package Day2;
 import  java.util.*;
 public class SkippingMultiples_5 {

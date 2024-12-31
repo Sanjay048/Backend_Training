@@ -1,3 +1,6 @@
+/*Define an interface Constants with static fields like PI = 3.14. 
+Create a class Circle that uses this constant to calculate the area of a circle.*/
+
 package Day3;
 
 interface Constants{

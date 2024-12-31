@@ -1,3 +1,7 @@
+/*Implement a program that shifts an integer left and right by 2 positions and prints the result.
+Use the ^ operator to demonstrate XOR functionality between two integers.
+*/
+
 package Day1;
 
 import java.util.*;

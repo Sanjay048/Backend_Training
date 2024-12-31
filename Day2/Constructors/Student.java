@@ -1,3 +1,6 @@
+//Create a class Student with attributes like name and age. Initialize these attributes using a parameterized constructor.
+
+
 package Day2;
 
 public class Student {

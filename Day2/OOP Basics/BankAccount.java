@@ -1,3 +1,5 @@
+//Write a class BankAccount with private attributes for accountNumber and balance. Provide public methods to deposit, withdraw, and check the balance.
+
 package Day2;
 
 public class BankAccount {

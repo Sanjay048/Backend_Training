@@ -1,3 +1,6 @@
+/*Create a class Vehicle with a method start(). Derive a class Car that overrides the start() method. 
+Write a program to demonstrate method overriding.*/
+
 package Day3;
 class Vehicle{
     public void start(){

@@ -1,3 +1,6 @@
+//Write a program to find the largest of three numbers using the ternary operator.
+
+
 package Day2;
 import  java.util.*;
 public class LargestOfThreeNumbers {

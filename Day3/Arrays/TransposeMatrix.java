@@ -1,3 +1,6 @@
+//Create a program to transpose a given matrix.
+
+
 package Day3;
 import java.util.*;
 public class TransposeMatrix {

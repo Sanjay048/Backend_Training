@@ -1,3 +1,6 @@
+/*Define an interface Vehicle with a method start(). 
+Derive two interfaces FourWheeler and TwoWheeler from it, each adding its specific methods. Implement these in relevant classes.*/
+
 package Day3;
 
 interface Vehicles{

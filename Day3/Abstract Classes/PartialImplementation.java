@@ -1,3 +1,6 @@
+/*Create an abstract class Appliance with methods turnOn() (abstract) and turnOff() (non-abstract). 
+Derive a class Fan and implement turnOn().*/
+
 package Day3;
 abstract class Appliance{
     abstract void turnOn();

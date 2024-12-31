@@ -1,3 +1,6 @@
+//Write a program that takes two integers from the user and performs all arithmetic operations, printing each result.
+
+
 package Day1;
 
 import java.util.*;

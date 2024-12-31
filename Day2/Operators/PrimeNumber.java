@@ -1,3 +1,5 @@
+//Create a program to check if a number is prime using logical operators.
+
 package Day2;
 import  java.util.*;
 public class PrimeNumber {

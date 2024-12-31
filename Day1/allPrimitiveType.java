@@ -1,3 +1,5 @@
+//Declare variables of all primitive types and print them.Convert a double to an int and print the result
+
 package Day1;
 
 public class allPrimitiveType {
