@@ -29,7 +29,7 @@ class MyCalculator implements AdvancedArithmetic{
         return sum;
     }
 }
-public class prg8 {
+public class Prg8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number : ");

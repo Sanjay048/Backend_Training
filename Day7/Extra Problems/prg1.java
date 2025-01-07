@@ -14,7 +14,7 @@ Explanation:
 
 package Day7;
 
-public class prg1 {
+public class Prg1 {
     public static int countSubstring(String[] patterns, String word){
         int count =0;
         for(String x: patterns){

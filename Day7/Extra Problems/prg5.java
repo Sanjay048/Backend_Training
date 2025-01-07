@@ -12,9 +12,9 @@ Total cost is 1.
 
 package Day7;
 
-public class prg5 {
+public class Prg5 {
     public static void main(String[] args) {
-        int[] position = {1,2,3,4};
+        int[] position = {1,3,2,5};
         int count=0;
         for (int i = 0; i < position.length; i++) {
             if (i%2 == 0) count++;

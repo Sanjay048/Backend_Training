@@ -15,7 +15,7 @@ Output: false
 
 package Day7;
 
-public class prg3 {
+public class Prg3 {
     public static boolean validPalindrome(String str1){
         int left = 0;
         int right = str1.length()-1;

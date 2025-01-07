@@ -18,7 +18,7 @@ class Arithmetic{
 }
 class Adder extends Arithmetic{}
 
-public class prg7 {
+public class Prg7 {
     public static void main(String[] args) {
         Adder no = new Adder();
         System.out.println("My superclass is: " + no.getClass().getSuperclass().getName());

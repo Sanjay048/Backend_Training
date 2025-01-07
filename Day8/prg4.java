@@ -6,7 +6,7 @@ Explanation: nums[0] + nums[1] = 2 + 7 = 9.*/
 
 package Day8;
 
-public class prg4 {
+public class Prg4 {
     public static String sum(int[] number, int target){
         for (int i = 0; i < number.length; i++) {
             for (int j = i+1; j < number.length; j++) {

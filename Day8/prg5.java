@@ -6,7 +6,7 @@ Explanation: The next greater element for 4 is 5, for 5 is 10, for 2 is 10, and 
 
 package Day8;
 
-public class prg5 {
+public class Prg5 {
     public static void main(String[] args) {
         int[]  nums = {4, 5, 2, 10};
         int[] nums1 = new int[nums.length];

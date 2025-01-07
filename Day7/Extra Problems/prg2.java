@@ -13,7 +13,7 @@ Explanation: "ba" is a substring in "ababc". "baba" is not a substring in "ababc
 
 package Day7;
 
-public class prg2 {
+public class Prg2 {
     public static void main(String[] args) {
         String sequence = "ababac";
         String word = "ba";
@@ -23,6 +23,6 @@ public class prg2 {
             empty=sequence.substring(i,word.length()+i);
             if (empty.equals(word)) count++;
         }
-        System.out.println(count);
+        System.out.println("No of time repeated substring : "+count);
     }
 }

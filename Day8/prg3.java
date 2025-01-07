@@ -9,7 +9,7 @@ package Day8;
 
 import java.util.Arrays;
 
-public class prg3 {
+public class Prg3 {
     public static void main(String[] args) {
         int[] nums = {3, 0, 1};
         Arrays.sort(nums);

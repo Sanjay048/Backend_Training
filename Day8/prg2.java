@@ -9,7 +9,7 @@ Explanation: Rotate the array to the right by 3 steps.
 
 package Day8;
 
-public class prg2 {
+public class Prg2 {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5, 6, 7};
         int k = 10,n=k;
