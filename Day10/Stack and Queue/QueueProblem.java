@@ -1,3 +1,8 @@
+/*Create a program that uses a Queue to manage a Customer Support System. The program should:
+Add customers to the queue as they arrive.
+Serve customers in the order they arrived (FIFO - First In, First Out).
+Display the list of waiting customers.*/
+
 package Day10;
 
 import java.util.LinkedList;

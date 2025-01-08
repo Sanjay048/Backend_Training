@@ -1,3 +1,9 @@
+/*Problem Statement for Stack: Undo Functionality
+Create a program that uses a Stack to implement an Undo feature for a text editor. The program should:
+Allow the user to perform actions like typing words (e.g., "Hello", "World").
+Store each action in the stack.
+Undo the last action by popping it from the stack.*/
+
 package Day10;
 
 import java.util.Scanner;
