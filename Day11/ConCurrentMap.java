@@ -20,13 +20,10 @@ import java.util.concurrent.TimeUnit;
 public class ConCurrentMap {
 
 	public static void main(String[] args) {
-		
-		
-		ConcurrentMap<String, Integer> votes = new ConcurrentHashMap<>();
-		ExecutorService exe = Executors.newFixedThreadPool(4);
-		
-		
-		exe.execute(() -> addVote(votes, "Alice"));
+			
+	ConcurrentMap<String, Integer> votes = new ConcurrentHashMap<>();
+	ExecutorService exe = Executors.newFixedThreadPool(4);
+	exe.execute(() -> addVote(votes, "Alice"));
         exe.execute(() -> addVote(votes, "Bob"));
         exe.execute(() -> addVote(votes, "Alice"));
         exe.execute(() -> addCandidateAndVote(votes, "Charlie"));
