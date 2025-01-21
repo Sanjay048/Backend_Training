@@ -1,4 +1,5 @@
-//Write a method that takes a list of student names and transforms each name into uppercase letters with a prefix like "Student: " using map.
+/*Write a method that takes a list of student names and transforms each name into uppercase letters
+with a prefix like "Student: " using map.*/
 
 package Day15;
 
@@ -19,7 +20,7 @@ public class LambdaTranform {
             Students s2 = new Students("kavin", 7.2);
             Students s3 = new Students("jeeva", 7.8);
 
-            List<Students> list = new ArrayList<Students>();
+            List<Students> list = new ArrayList<>();
             list.add(s1);
             list.add(s2);
             list.add(s3);

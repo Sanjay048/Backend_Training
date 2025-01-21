@@ -11,20 +11,15 @@ public class LambdaSort {
         Students s2 = new Students("kavin", 7.2);
         Students s3 = new Students("jeeva", 7.8);
 
-        List<Students> list = new ArrayList<Students>();
+        List<Students> list = new ArrayList<>();
         list.add(s1);
         list.add(s2);
         list.add(s3);
-        System.out.println("Before Sort");
-        System.out.println(list.toString());
-        System.out.println("After Sort");
-        Collections.sort(list,(std1,std2) -> Double.compare(std1.getCgpa() , std2.getCgpa()));
-        System.out.println(list.toString());
-        Collections.sort(list,(std1,std2) -> Double.compare(std2.getCgpa(),std1.getCgpa()));
-        System.out.println("Decanding order");
-        System.out.println(list.toString());
+        System.out.println("Before Sorting");
+        System.out.println(list);
+        System.out.println("After Sorting");
+        Collections.sort(list,(st1,st2)-> Double.compare(st2.getCgpa() , st1.getCgpa()));
+        //Collections.sort(list,Comparator.comparing(Students::getCgpa));
+        System.out.print(list);
     }
-
-
-
 }

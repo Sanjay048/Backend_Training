@@ -3,35 +3,34 @@ package Day15;
 public class Students {
     String name;
     double cgpa;
+    private String department;
     Students(String name,double cgpa)
     {
       this.name=name;
       this.cgpa=cgpa;
     }
-
-    public Students() {
+    Students(String name,double cgpa,String department)
+    {
+        this.name=name;
+        this.cgpa=cgpa;
+        this.department=department;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getCgpa() {
         return cgpa;
     }
 
-    public void setCgpa(double cgpa) {
-        this.cgpa = cgpa;
+    public String getDepartment() {
+        return department;
     }
 
     @Override
     public String toString() {
         return
-                "[name='" + name + '\'' +
-                ", cgpa=" + cgpa +"]";
+                "Name = " + name + " Cgpa = " + cgpa ;
     }
 }

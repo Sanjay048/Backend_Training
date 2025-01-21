@@ -15,15 +15,16 @@ public class LambdaFind {
             Students s1 = new Students("sanjay", 8.3);
             Students s2 = new Students("kavin", 7.2);
             Students s3 = new Students("jeeva", 7.8);
+            Students s4 = new Students("sowmiya", 8.2);
 
-            List<Students> list = new ArrayList<Students>();
+            List<Students> list = new ArrayList<>();
             list.add(s1);
             list.add(s2);
             list.add(s3);
+            list.add(s4);
             char ch ='s';
             List<Students> list2 = FindStrings(list,ch);
             list2.forEach(students -> System.out.println(students.getName()));
-            System.out.println("These are the names starts with '"+ch+"'...");
         }
     }
 
