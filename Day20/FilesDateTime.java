@@ -58,13 +58,19 @@ public class FilesDateTime {
     }
     public static void main(String[] args) {
         List<Event> list = List.of(
-                new Event("Home",LocalDateTime.of(2025, 1, 28, 10, 0), Duration.ofHours(1)),
-                new Event("Office",LocalDateTime.of(2025, 1, 27, 10, 0), Duration.ofHours(2))
+                new Event("Home",LocalDateTime.of(2025, 1, 27, 10, 0), Duration.ofHours(1)),
+                new Event("Office",LocalDateTime.of(2025, 1, 28, 10, 0), Duration.ofHours(2))
                 );
         LocalDate date = LocalDate.of(2025,1,28);
+        list.forEach(System.out::println);
 
         List<Event> events = list.stream().filter(event -> event.getDateTime().toLocalDate().equals(date)).collect(Collectors.toList());
         System.out.println("Events on "+ date+" : ");
         events.forEach(event -> System.out.println(event.getFieldsName()));
+
+        for (int i = 0; i < list.size()-1 ; i++) {
+            Duration duration = Duration.between(list.get(i).getDateTime(),list.get(i+1).getDateTime());
+            System.out.println(duration.toHours());
+        }
     }
 }
