@@ -23,15 +23,54 @@ public class StudentService {
     public Student getStudentByRno(int rno) {
 
         int index = 0;
+        boolean found = false;
         for (int i = 0; i < students.size() ; i++) {
             if (students.get(i).getRollNo()==rno){
                 index=i;
+                found=true;
+                break;
             }
         }
-        return students.get(index);
+        if (found) return students.get(index);
+        else return new Student(0,"","");
     }
 
     public void addStudent(Student student) {
         students.add(student);
+    }
+
+    public String  updateStudent(Student student) {
+        int index = 0;
+        boolean found = false;
+        for (int i = 0; i < students.size() ; i++) {
+            if (students.get(i).getRollNo()==student.getRollNo()){
+                index=i;
+                found=true;
+                break;
+            }
+        }
+        if(!found) return "No such element exists";
+        else {
+            students.set(index , student);
+            return "Updated Student";
+        }
+    }
+
+    public String deleteStudent(int rno) {
+        int index = 0;
+        boolean found = false;
+        for (int i = 0; i < students.size() ; i++) {
+            if (students.get(i).getRollNo()==rno){
+                index=i;
+                found=true;
+                break;
+            }
+        }
+        if(found) {
+            students.remove(index);
+            return "Deleted Successfully";        }
+        else {
+            return "No such element exists";
+        }
     }
 }

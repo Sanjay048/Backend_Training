@@ -28,4 +28,14 @@ public class StudentController {
         studentService.addStudent(student);
         return "Successfully Added";
     }
+
+    @PutMapping("/students")
+    public String updateStudent(@RequestBody Student student){
+        return studentService.updateStudent(student);
+    }
+
+    @DeleteMapping("/students/{rno}")
+    public String deleteStudent(@PathVariable int rno){
+        return studentService.deleteStudent(rno);
+    }
 }
