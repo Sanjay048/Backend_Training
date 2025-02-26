@@ -1,0 +1,40 @@
+OVERVIEW
+  * This project is a console-based Student Management System (SMS) built using Core Java and Java 8 features. 
+  * It allows users to perform CRUD (Create, Read, Update, Delete) operations on student records without using a database.
+
+FEATURES
+  * Add Student: Add a new student with details like ID, Name, Age, Grade, and Email.
+  * View All Students: Display all student records.
+  * Search Student: Search for a student by their ID.
+  * Update Student: Update student details (e.g., Name, Age, Grade, Email).
+  * Delete Student: Delete a student record by ID.
+  * File Storage: Store and retrieve student records from a text file.
+  * Java 8 Features:
+      * Streams & Lambda Expressions: Filter and sort students.
+      * Optional Class: Handle null values gracefully.
+      * Method References: Clean and concise code.
+  * Bonus Features:
+      * Sort students by name using Java 8 Streams.
+      * Filter students by grade.
+      * Multithreading: Save data to a file in the background.
+
+HOW TO RUN THE PROJECT
+  * Prerequisites:
+      * Install Java JDK 8 or higher.
+      * Ensure java and javac are added to your system's PATH.
+  * Steps:
+      * Clone the repository or download the project files.
+      * Navigate to the project directory in your terminal/command prompt.
+      * Compile the Java files:
+         -> javac -d . *.java
+      * Run the application:
+         -> java MiniProject.MainClass
+
+PROJECT STRUCTURE
+      StudentManagementSystem/
+      ├── MiniProject/
+      │   ├── MainClass.java                # Entry point of the application
+      │   ├── Student.java                  # Student class (POJO)
+      │   ├── StudentManagementSystem.java  # Service layer for CRUD operations
+      ├── students.txt                      # Text file for storing student records
+      ├── README.md                         # Project documentation
